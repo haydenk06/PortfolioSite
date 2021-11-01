@@ -1,0 +1,155 @@
+/* Master Styles */
+body{
+    font-family: "bebas Nueue", sans-serif;
+    margin: 0px;
+    background: #fffff9
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 38px;
+}
+
+.left-side {
+    display: flex;
+}
+
+/* Nav Styles */
+.nav-wrapper > .left-side > div {
+    margin-right: 20px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+
+.nav-link-wrapper {
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+.nav-link-wrapper a {
+    color: #272727;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.nav-link-wrapper:hover {
+    border-bottom: 1px solid #fbd8e8;
+}
+
+.nav-link-wrapper a:hover {
+    color: #8edddd;
+}
+
+.active-nav-link {
+    border-bottom: 1px solid black;
+}
+
+/*Footer Styles*/
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #fbd8e8;
+    color: #8a8a8a;
+    text-align: center;
+    padding: 5px;
+}
+.icon-item-wrapper {
+    display: inline-block;
+    margin-right: 40px;
+}
+.icon-item-wrapper a {
+    color: #272727;
+}
+.icon-item-wrapper a:hover {
+    color: #5daecc;
+}
+
+/* Portfolio Styles */
+.portfolio-items-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.portfolio-item-wrapper {
+    position: relative;
+}
+
+.portfolio-img-background {
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img-text-wrapper {
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.logo-wrapper img {
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.img-text-wrapper .subtitle {
+    transition: 1s;
+    font-weight: 600;
+    color: transparent;
+}
+
+.img-text-wrapper:hover .subtitle {
+    font-weight: 600;
+    color: #8edddd;
+}
+
+.img-darken {
+    transition: 1s;
+    filter: brightness(10%);
+}
+
+.image-blur {
+    transition: 1s;
+    filter: brightness(10%);
+}
+
+/* About Page */
+.two-column-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.profile-image-wrapper img {
+    width: 100%;
+}
+
+.profile-content-wrapper {
+    padding: 30px;
+}
+
+.profile-content-wrapper h1 {
+    color: #8edddd;
+    text-align: center;
+}
+.profile-content-wrapper p {
+    color: #272727;
+    line-height: 1.6;
+    text-indent: 20px;
+}
