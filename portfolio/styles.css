@@ -137,11 +137,12 @@ body{
 }
 
 .profile-image-wrapper img {
-    width: 100%;
+    width: 90%;
 }
 
 .profile-content-wrapper {
     padding: 30px;
+    margin-right: 20px;
 }
 
 .profile-content-wrapper h1 {
