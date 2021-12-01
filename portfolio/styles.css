@@ -72,6 +72,9 @@ body{
 .icon-item-wrapper a:hover {
     color: #5daecc;
 }
+.footer-content-wrapper {
+    margin-top: 10px;   
+}
 
 /* Portfolio Styles */
 .portfolio-items-wrapper {
